@@ -26,6 +26,7 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
 TARGET_KERNEL_CONFIG := vendor/lineage_violet_defconfig
 endif
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
+BOARD_PREBUILT_DTBIMAGE_DIR := device/xiaomi/violet/prebuilt
 
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno612
