@@ -37,3 +37,4 @@ ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest_odm.xml
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/violet/BoardConfigVendor.mk
+

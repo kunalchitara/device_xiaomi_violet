@@ -71,3 +71,4 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
+
